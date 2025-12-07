@@ -33,25 +33,25 @@ print(r'''
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
-where_to_go = input("left or right? ")
+where_to_go = input("You\'re at a crossroad, where do you want to go? Type left or right. ").lower()
 if where_to_go=="left":
-    what_to_do = input("swim or wait? ")
+    what_to_do = input("There's a lake over there. Will you swim or wait for a boat? Type swim or wait. ").lower()
     if what_to_do=="wait":
-        which_door=input("Choose a door: red, yellow, blue ")
+        which_door=input("Boat is here. Boat has 3 doors. Choose a door: red, yellow, blue ").lower()
         if which_door=="red":
-            print("Game Over.")
+            print("Oh no! you are going to hell bye byee loser hehehe")
         elif which_door=="yellow":
-            print("Congrats! Mission Completed!!")
+            print("Congrats! You are rich now!! Would you buy me a present O.O")
         elif which_door=="blue":
-            print("Game Over.")
+            print("You are drowning like a titanic ship...but your heart will go on...")
         else:
             print("Oops! That seems wrong, try again. ")
     elif what_to_do=="swim":
-        print("Game Over.")
+        print("Who do you think you are? Michael Phelps?! ggwp")
     else:
         print("Oops! That seems wrong, try again. ")
 elif where_to_go=="right":
-    print("Game Over.")
+    print("right? really?? you fell into a hole. game over")
 else:
     print("Oops! That seems wrong, try again. ")
 
